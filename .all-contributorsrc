@@ -1,0 +1,49 @@
+{
+  "projectName": "get-node",
+  "projectOwner": "ehmicky",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "linkToUsage": false,
+  "contributors": [
+    {
+      "login": "ehmicky",
+      "name": "ehmicky",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8136211?v=4",
+      "profile": "https://fosstodon.org/@ehmicky",
+      "contributions": [
+        "code",
+        "design",
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "tunnckoCore",
+      "name": "Charlike Mike Reagent",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5038030?v=4",
+      "profile": "https://tunnckoCore.com",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "privatenumber",
+      "name": "hiroki osame",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1075694?v=4",
+      "profile": "http://instagram.com/private.number_",
+      "contributions": [
+        "code",
+        "test",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "commitConvention": "none"
+}

@@ -1,18 +1,80 @@
 {
-  "name": "@utilcode/simple-template-advanced",
+  "name": "@npmmacro2/laughing-engine",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "exports": {
+    "types": "./build/src/main.d.ts",
+    "default": "./build/src/main.js"
   },
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "main": "./build/src/main.js",
+  "types": "./build/src/main.d.ts",
+  "files": [
+    "build/src/**/*.{js,json,d.ts}",
+    "!build/src/**/*.test.js",
+    "!build/src/{helpers,fixtures}"
+  ],
+  "sideEffects": false,
+  "description": "Download a specific version of Node.js",
+  "keywords": [
+    "nodejs",
+    "node",
+    "download",
+    "nvm",
+    "npx",
+    "versions",
+    "versioning",
+    "exec",
+    "shell",
+    "terminal",
+    "command-line",
+    "cli",
+    "dependency-management",
+    "es6",
+    "javascript",
+    "typescript",
+    "library",
+    "npmjs",
+    "operating-system",
+    "package-manager"
+  ],
+  "license": "Apache-2.0",
+  "author": "duynguyenquoc1",
+  "directories": {
+    "lib": "src"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "execa": "^8.0.1",
+    "fetch-node-website": "^9.0.0",
+    "global-cache-dir": "^6.0.0",
+    "is-plain-obj": "^4.1.0",
+    "jszip": "^3.10.1",
+    "mem": "^9.0.2",
+    "move-file": "^3.0.0",
+    "node-version-alias": "^5.0.0",
+    "path-exists": "^5.0.0",
+    "path-key": "^4.0.0",
+    "preferred-node-version": "^5.0.0",
+    "semver": "^7.5.4",
+    "tar-fs": "^3.0.4",
+    "tmp-promise": "^3.0.3"
+  },
+  "devDependencies": {
+    "@ehmicky/dev-tasks": "^2.0.104",
+    "@types/node": "^20.8.9",
+    "is-ci": "^3.0.1",
+    "sinon": "^17.0.0",
+    "test-each": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npmmacro2/laughing-engine.git"
+  },
+  "homepage": "https://github.com/npmmacro2/laughing-engine/#readme",
+  "bugs": {
+    "url": "https://github.com/npmmacro2/laughing-engine/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
